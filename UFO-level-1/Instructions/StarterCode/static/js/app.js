@@ -25,7 +25,7 @@ function handleClick() {
     // PREVENTS THE PAGE FROM REFRESHING
     d3.event.preventDefault();
     // SELECT HTML INPUT ELEMENT AND GET THE VALUE OF THAT INPUT ELEMENT
-    let data = d3.select("#datatime").property("value");
+    let date = d3.select("#datetime").property("value");
     let filterData = tableData;
 
     // CHECK IF A DATE WAS ENTERED & FILTER DATA USING THAT DATE
